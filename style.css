@@ -1,53 +1,64 @@
-*{
+* {
     padding: 0;
     margin: 0;
-    box-sizing: 0;
+    box-sizing: border-box;
 }
 
-
-header{
-    width: 1440px;
-    height: 120px;
-    display: flex;
+body {
+    height: 1024px; 
+    margin: 0;
+    width: 100%;
+    padding: 0 103px;
 }
 
-header .logo{
+header {
     display: flex;
-    padding-left: 100px;
-    padding-top: 75px;
+    height: 180px;
+    padding: 0; 
+}
+
+header .logo {
+    display: flex;
+    padding: 82px 0px 0px 0px;
+    align-items: center;
     font-family: "Patua One", serif;
+    font-size: 26px;
 }
 
-header p{
-    height: 22px;
-    flex-direction: row;
-    font-family: "Konkhmer Sleokchher", system-ui;
-    font-size: 18px;
-}
-    
-header .menu{
+header .menu {
     display: flex;
-    height: 40px;
-    width: 560px;
-    padding-top: 72px;
-    padding-left: 200px;
-    justify-content: space-between; 
+    padding: 11vh 13vh 4vh 34vh;
+    gap: 60px;
+}
+
+header .menu p {
+    font-family: "Konkhmer Sleokchher", system-ui;
+    font-size: 20px;
 }
 
 header .botao{
-    padding-top: 71px;
+    display: flex;
+    height: 2vh;
+    width: 15vh;
+    margin-left: 1vh;
+    margin-top: 9vh;
+    border: 30px;
+    border-style: solid;
+    border-radius: 30px;
+    align-items: center;
+    justify-content: center;
 }
 
-header a{  
-    padding-left: 147px;
+header .botao p{
+    font-family: "Konkhmer Sleokchher", system-ui;
+    font-size: 20px;
+    color: white;
+}
+
+header a {
     text-decoration: none;
     font-size: 20px;
     color: white;
     font-family: "Konkhmer Sleokchher", system-ui;
-    position: absolute;
 }
 
-img{
-    padding-top: 59px;
-    padding-left: 95px;
-}
