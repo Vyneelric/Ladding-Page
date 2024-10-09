@@ -62,3 +62,104 @@ header a {
     font-family: "Konkhmer Sleokchher", system-ui;
 }
 
+
+main{
+    display: flex;
+    height: 62vh;
+    width: 121vh;
+}
+
+main .textGrande{
+    height: 298px;
+    width: 480px;
+}
+
+main .textGrande p{
+    font-family: "Albert Sans", sans-serif;
+    font-weight: 200;
+    font-size: 62px;
+}
+
+main .textPequeno{
+    height: 100px;
+    width: 464px;
+}
+
+main .textPequeno p{
+    display: flex;
+    padding-top: 3vh;
+    color: #4e4e4e;
+    font-family: "Albert Sans", sans-serif;
+    font-weight: 200;
+    font-size: 24px;
+}
+
+main .botao{
+    display: flex;
+    height: 1vh;
+    width: 18vh;
+    margin-top: 5vh;
+    border: 28px;
+    border-style: solid;
+    border-radius: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+main .botao p{
+    font-family: "Albert Sans", sans-serif;
+    font-size: 20px;
+    color: white;
+    font-weight: 200;
+}
+
+main .icone{
+    display: flex;
+    height: 45px;
+    margin-top: 5vh;
+    margin-left: 9vh;
+}
+main .button{
+    height: 101px;
+    width: 463px;
+    display: flex;
+}
+
+main .icone p{
+    margin-top: 1vh;
+    margin-left: 2vh;
+    font-family: "Albert Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+main .parte1{
+    width: 50%;
+    height: 100%;
+}
+
+main .parte2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    overflow: hidden; /* Evita que as imagens saiam da div */
+}
+
+main .imagem {
+    display: flex;
+    flex-wrap: wrap; /* Faz as imagens "quebrarem" linha automaticamente */
+    gap: 20px; /* Espaço entre as imagens */
+    width: 100%; /* Garante que as imagens respeitem o tamanho da div */
+    height: 100%; /* Garante que as imagens respeitem o tamanho da div */
+}
+
+.imagem img {
+    width: calc(33% - 50px); /* Ajusta para caber até 3 imagens por linha (ajuste conforme necessário) */
+    height: 215px; /* Mantém a proporção da imagem */
+    object-fit: cover; /* Garante que as imagens sejam redimensionadas corretamente */
+}
+
+
+
