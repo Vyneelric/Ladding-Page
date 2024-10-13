@@ -75,147 +75,7 @@ main .textGrande {
 
 main .textGrande p {
     font-family: "Albert Sans", sans-serif;
-    font-weight: 200;
-    font-size: 62px;
-}
-
-main .textPequeno {
-    height: 100px;
-    width: 464px;
-}
-
-main .textPequeno p {
-    display: flex;
-    padding-top: 3vh;
-    color: #4e4e4e;
-    font-family: "Albert Sans", sans-serif;
-    font-weight: 200;
-    font-size: 24px;
-}
-
-main .botao {
-    display: flex;
-    height: 1vh;
-    width: 18vh;
-    margin-top: 5vh;
-    border: 28px;
-    border-style: solid;
-    border-radius: 30px;
-    align-items: center;
-    justify-content: center;
-}
-
-main .botao p {
-    font-family: "Albert Sans", sans-serif;
-    font-size: 20px;
-    color: white;
-    font-weight: 200;
-}
-
-main .icone {
-    display: flex;
-    height: 45px;
-    margin-top: 5vh;
-    margin-left: 9vh;
-}
-
-main .button {
-    height: 101px;
-    width: 463px;
-    display: flex;
-}
-
-main .icone p {
-    margin-top: 1vh;
-    margin-left: 2vh;
-    font-family: "Albert Sans", sans-serif;
-    font-size: 20px;
-    font-weight: 400;
-}
-
-main .parte1 {
-    width: 50%;
-    height: 100%;
-}
-
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
-body {
-    height: 1024px; 
-    margin: 0;
-    width: 100%;
-    padding: 0 103px;
-}
-
-header {
-    display: flex;
-    height: 180px;
-    padding: 0; 
-}
-
-header .logo {
-    display: flex;
-    padding: 82px 0px 0px 0px;
-    align-items: center;
-    font-family: "Patua One", serif;
-    font-size: 26px;
-}
-
-header .menu {
-    display: flex;
-    padding: 11vh 13vh 4vh 34vh;
-    gap: 60px;
-}
-
-header .menu p {
-    font-family: "Konkhmer Sleokchher", system-ui;
-    font-size: 20px;
-}
-
-header .botao{
-    display: flex;
-    height: 2vh;
-    width: 15vh;
-    margin-left: 1vh;
-    margin-top: 9vh;
-    border: 30px;
-    border-style: solid;
-    border-radius: 30px;
-    align-items: center;
-    justify-content: center;
-}
-
-header .botao p{
-    font-family: "Konkhmer Sleokchher", system-ui;
-    font-size: 20px;
-    color: white;
-}
-
-header a {
-    text-decoration: none;
-    font-size: 20px;
-    color: white;
-    font-family: "Konkhmer Sleokchher", system-ui;
-}
-
-main {
-    display: flex;
-    height: 62vh;
-    width: 121vh;
-}
-
-main .textGrande {
-    height: 298px;
-    width: 480px;
-}
-
-main .textGrande p {
-    font-family: "Albert Sans", sans-serif;
-    font-weight: 200;
+    font-weight: 300;
     font-size: 62px;
 }
 
@@ -293,11 +153,6 @@ main .imagem {
     justify-items: center;
 }
 
-.img {
-    background-color: white;
-    border: 1px solid #ddd;
-}
-
 /* Imagens na ordem correta */
 .img1 {
     grid-column: 1;
@@ -309,8 +164,6 @@ main .imagem {
 }
 
 .img2 {
-    grid-column: 2;
-    grid-row: 1;
     width: 144px;
     height: 126px;
     background-image: url(/img/img2.png);
@@ -362,3 +215,91 @@ main .imagem {
     background-image: url(/img/img7.png);
     background-size: cover;
 }
+
+footer{
+    display: flex;
+    flex-direction: column;
+    height: 552px;
+    padding: 0; 
+}
+
+footer .numero{
+    font-size: 64px;
+    font-weight: 700;
+    width: 21vh;
+    font-family: "Lexend Deca", sans-serif;
+    padding-left: 6vh;
+}
+
+footer .texto{
+    display: flex;
+    height: 4vh;
+    width: 100vh;
+    padding-left: 5vh;
+    padding-top: 1vh;
+    font-family: "Albert Sans", sans-serif;
+}
+
+.texto p{
+    font-family: "Albert Sans", sans-serif;
+    font-size: 24px;
+    color: #767676;
+}
+
+footer .bolinha{
+    display: flex;
+    color: #4e4e4e;
+    padding-left: 7vh;
+}
+
+.bolinha img{
+    display: flex;
+    height: 35px;
+    width: 35px;
+    margin-right: -15px;
+    border-color: white;
+    border-style: bold;
+    border: 500px;
+    border-radius: 20px;
+}
+
+
+footer {
+    position: relative;       
+    height: 400px;          
+}
+
+footer .linhas {
+    position: relative;       
+    display: flex;          
+    justify-content: flex-end; 
+    align-items: flex-start;   
+    padding: 20px;           
+}
+
+footer .linhas img {
+    position: absolute;        
+}
+
+
+footer .linhas img:nth-child(1) {
+    width: 572.09px;          
+    height: 272.75px;         
+    top: 0;                
+    left: 0;                
+}
+
+footer .linhas img:nth-child(2) {
+    width: 226.14px;          
+    height: 189.51px;         
+    top: 80px;              
+    left: 50px;               
+}
+
+footer .linhas img:nth-child(3) {
+    width: 65px;          
+    height: 119px;       
+    top: 120px;             
+    left: 100px;           
+}
+
