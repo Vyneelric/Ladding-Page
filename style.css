@@ -241,6 +241,7 @@ footer .texto{
 }
 
 .texto p{
+    text-align: center;
     font-family: "Albert Sans", sans-serif;
     font-size: 24px;
     color: #767676;
@@ -269,37 +270,138 @@ footer {
     height: 400px;          
 }
 
-footer .linhas {
-    position: relative;       
-    display: flex;          
-    justify-content: flex-end; 
-    align-items: flex-start;   
-    padding: 20px;           
+
+@media (max-width:960px){
+    body {
+        margin: 0;
+        width: 100%;
+        padding: 0 70px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    header{
+        height: 15vh;
+    }
+    header p1{
+        display: none;
+    }
+    header .menu {
+        padding: 10vh 0vh 0vh 8vh;
+        gap: 20px;
+    }
+    header .botao{
+        padding: 0;
+        width: 13vh;
+    }
+    main .parte1{
+        margin-left: 5vh;
+        margin-top: 6vh;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    main .icone{
+        margin-top: 5vh;
+        margin-left: 5vh;
+        font-family: "Albert Sans", sans-serif;
+        font-size: 20px;
+        font-weight: 400;
+    }
+    main .parte2{
+        display: none;
+    }
+    footer{
+        width: 100%;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    footer .numero{
+        padding: 0;
+        padding-top: 7vh;
+        margin-right: 6vh;
+    }
+    footer .texto{
+        align-items: center;
+        justify-content: center;
+        margin-right: 11vh;
+    }
+    footer .bolinha{
+        display: none
+    }
 }
 
-footer .linhas img {
-    position: absolute;        
+@media (max-width:375px){
+    body{
+        padding: 0 30px;
+    }
+    header .menu{
+        display: none;
+    }
+    header .botao{
+        display: none;
+    }
+    main .parte1{
+        margin: 0;
+        padding: 0;
+        height: 38vh;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    main{
+        height: 60vh;
+        width: 90vh;
+
+    }
+    main .textGrande{
+        width: 30vh;
+        height: 30vh;
+    }
+    main .textGrande p{
+        padding: 0;
+        margin-top: 10vh;
+        width: 48vh;
+        height: 0vh;
+        font-size: 38px;
+    }
+
+    main .textPequeno{
+        height: 6vh;
+    }
+    main .textPequeno p{
+        padding: 0;
+        font-size: 16px;
+    }
+
+    main .button{
+        flex-direction: column;
+    }
+
+    main .botao{
+        margin-left: 5vh;
+        width: 35vh;
+    }
+    main .icone{
+        margin: 0;
+        margin-top: 1vh;
+        margin-left: 8vh;
+    }
+    footer{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 1vh;
+    }
+    footer .numero{
+        margin-left: 2vh;
+        font-size: 48px;
+    }
+    footer .texto p{
+        margin-left: 2vh;
+        font-size: 20px;
+    }
+
 }
-
-
-footer .linhas img:nth-child(1) {
-    width: 572.09px;          
-    height: 272.75px;         
-    top: 0;                
-    left: 0;                
-}
-
-footer .linhas img:nth-child(2) {
-    width: 226.14px;          
-    height: 189.51px;         
-    top: 80px;              
-    left: 50px;               
-}
-
-footer .linhas img:nth-child(3) {
-    width: 65px;          
-    height: 119px;       
-    top: 120px;             
-    left: 100px;           
-}
-
