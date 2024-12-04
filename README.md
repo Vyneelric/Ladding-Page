@@ -1,4 +1,4 @@
-# Landing Page - Anúncio sobre Sombrinha
+# Landing Page
 
 ![](/img/LaddingPageREADME.PNG)
 
